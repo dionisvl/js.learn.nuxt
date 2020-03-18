@@ -2,6 +2,10 @@
 
 > my vue nuxt.js learning
 
+## About
+Nuxt JS - Vue + SSR (быстрый курс за 70 минут)  
+https://www.youtube.com/watch?v=lm9olMCRCIc
+
 ## Build Setup
 
 ``` bash

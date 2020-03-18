@@ -1,9 +1,10 @@
 module.exports = {
+  mode: 'spa',
   /*
   ** Headers of the page
   */
   head: {
-    title: 'learn.nuxt',
+    title: 'my vue.js learn.nuxt',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -17,6 +18,10 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+
+  css: [
+    '@/node_modules/bootstrap/dist/css/bootstrap.min.css'
+  ],
   /*
   ** Build configuration
   */

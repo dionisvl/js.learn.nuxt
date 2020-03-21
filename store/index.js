@@ -12,6 +12,9 @@ export const mutations = {
 };
 
 export const actions = {
+  nuxtServerInit({dispatch}) {
+    console.log('nuxtServerInit')
+  },
   async login({commit}) {
     commit('setToken', 'truetoken')
   },

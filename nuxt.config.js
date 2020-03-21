@@ -1,5 +1,5 @@
 module.exports = {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -17,7 +17,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: {color: 'blue'},
+  loading: {color: 'magenta'},
 
   css: [
     '@/node_modules/bootstrap/dist/css/bootstrap.min.css'
